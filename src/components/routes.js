@@ -1,4 +1,7 @@
 import { LOGIN_ROUTE } from "../utills/consts";
+import Login from "./Login";
+import { CHAT_ROUTE } from "../utills/consts";
+import Chat from "./Chat";
 
 export const publicRoutes = [
   {
@@ -9,7 +12,7 @@ export const publicRoutes = [
 
 export const privateRoutes = [
   {
-    path: LOGIN_ROUTE,
+    path: CHAT_ROUTE,
     Component: Chat,
   },
 ];
